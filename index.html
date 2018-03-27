@@ -74,25 +74,25 @@
         <h2>Fortune Teller</h2>
       </div>
       <form id="events">
+        <h3>Check all that apply</h3>
         <div class="form-group">
-          <input type="checkbox" name="luckyEvents" value="penny">Finding a penny<br>
-          <input type="checkbox" name="luckyEvents" value="hair">Having a good hair day<br>
-          <input type="checkbox" name="luckyEvents" value="lion">Seeing a sea lion<br>
-          <input type="checkbox" name="luckyEvents" value="money">Surprise money<br>
+          <label>Any lucky things happen to you lately?</label><br>
+          <input type="checkbox" name="luckyEvents" value="1">Finding a penny<br>
+          <input type="checkbox" name="luckyEvents" value="2">Having a good hair day<br>
+          <input type="checkbox" name="luckyEvents" value="3">Seeing a sea lion<br>
+          <input type="checkbox" name="luckyEvents" value="4">Surprise money<br>
         </div>
         <div class="form-group">
-          <input type="checkbox" name="unluckyEvents" value="mirror">Breaking a mirror<br>
-          <input type="checkbox" name="unluckyEvents" value="poop">Stepping in poop<br>
-          <input type="checkbox" name="unluckyEvents" value="keys">Losing your keys<br>
-          <input type="checkbox" name="unluckyEvents" value="phone">Forgetting your phone<br>
+          <label>Any unlucky things happen to you lately?</label><br>
+          <input type="checkbox" name="unluckyEvents" value="-2">Breaking a mirror<br>
+          <input type="checkbox" name="unluckyEvents" value="-4">Stepping in poop<br>
+          <input type="checkbox" name="unluckyEvents" value="-3">Losing your keys<br>
+          <input type="checkbox" name="unluckyEvents" value="-1">Forgetting your phone<br>
         </div>
         <button type="submit" name="button">Lucky or no?</button>
       </form>
-      <span id="lucky-responses">
-        <p>You had the following lucky experiences</p>
-      </span>
-      <span id="unlucky-responses">
-        <p>You had the following unlucky experiences</p>
+      <span id="response">
+        <h3>This is your fortune!</h3>
       </span>
     </div>
   </body>
