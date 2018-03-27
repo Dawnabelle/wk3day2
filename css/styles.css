@@ -6,11 +6,15 @@
   display: none;
 }*/
 
-#lucky-responses {
-  display: none;
+/*#lucky-responses {*/
+  /*display: none;
 }
 
 #unlucky-responses {
   display: none;
 
+}*/
+
+ #hangman-2, #hangman-3, #hangman-4, #hangman-5, #hangman-6 {
+  display: none;
 }
